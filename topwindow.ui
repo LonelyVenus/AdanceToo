@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>EasyTool</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_3">
@@ -57,7 +57,7 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(64, 171, 255);</string>
+       <string notr="true">background-color: rgb(118, 38, 140);</string>
       </property>
       <widget class="QPushButton" name="pushButton">
        <property name="geometry">
@@ -68,9 +68,18 @@
          <height>101</height>
         </rect>
        </property>
+       <property name="font">
+        <font>
+         <family>华文中宋</family>
+         <pointsize>22</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
        <property name="styleSheet">
-        <string notr="true">font: 20pt &quot;华光大黑_CNKI&quot;;
-background-color: rgb(64, 171, 255);
+        <string notr="true">background-color: rgb(64, 171, 255);
+font: 22pt &quot;华文中宋&quot;;
 color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
@@ -89,9 +98,18 @@ color: rgb(255, 255, 255);</string>
          <height>101</height>
         </rect>
        </property>
+       <property name="font">
+        <font>
+         <family>华文中宋</family>
+         <pointsize>22</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
        <property name="styleSheet">
-        <string notr="true">font: 20pt &quot;华光大黑_CNKI&quot;;
-background-color: rgb(64, 171, 255);
+        <string notr="true">background-color: rgb(64, 171, 255);
+font: 22pt &quot;华文中宋&quot;;
 color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
@@ -110,9 +128,18 @@ color: rgb(255, 255, 255);</string>
          <height>101</height>
         </rect>
        </property>
+       <property name="font">
+        <font>
+         <family>华文中宋</family>
+         <pointsize>22</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
        <property name="styleSheet">
-        <string notr="true">font: 20pt &quot;华光大黑_CNKI&quot;;
-background-color: rgb(64, 171, 255);
+        <string notr="true">background-color: rgb(64, 171, 255);
+font: 22pt &quot;华文中宋&quot;;
 color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
@@ -120,16 +147,6 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="flat">
         <bool>true</bool>
-       </property>
-      </widget>
-      <widget class="QGraphicsView" name="graphicsView">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>141</width>
-         <height>130</height>
-        </rect>
        </property>
       </widget>
      </widget>

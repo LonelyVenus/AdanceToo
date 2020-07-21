@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'D:\Users\mys\PycharmProjects\AdanceToo\topwindow.ui'
+# Form implementation generated from reading ui file 'topwindow.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.0
 #
@@ -30,32 +30,50 @@ class Ui_TopWindow(object):
         self.widget.setMinimumSize(QtCore.QSize(135, 0))
         self.widget.setMaximumSize(QtCore.QSize(135, 16777215))
         self.widget.setBaseSize(QtCore.QSize(0, 0))
-        self.widget.setStyleSheet("background-color: rgb(64, 171, 255);")
+        self.widget.setStyleSheet("background-color: rgb(118, 38, 140);")
         self.widget.setObjectName("widget")
         self.pushButton = QtWidgets.QPushButton(self.widget)
         self.pushButton.setGeometry(QtCore.QRect(-10, 130, 151, 101))
-        self.pushButton.setStyleSheet("font: 20pt \"华光大黑_CNKI\";\n"
-"background-color: rgb(64, 171, 255);\n"
+        font = QtGui.QFont()
+        font.setFamily("华文中宋")
+        font.setPointSize(22)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.pushButton.setFont(font)
+        self.pushButton.setStyleSheet("background-color: rgb(64, 171, 255);\n"
+"font: 22pt \"华文中宋\";\n"
 "color: rgb(255, 255, 255);")
         self.pushButton.setFlat(True)
         self.pushButton.setObjectName("pushButton")
         self.pushButton_2 = QtWidgets.QPushButton(self.widget)
         self.pushButton_2.setGeometry(QtCore.QRect(-10, 230, 151, 101))
-        self.pushButton_2.setStyleSheet("font: 20pt \"华光大黑_CNKI\";\n"
-"background-color: rgb(64, 171, 255);\n"
+        font = QtGui.QFont()
+        font.setFamily("华文中宋")
+        font.setPointSize(22)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.pushButton_2.setFont(font)
+        self.pushButton_2.setStyleSheet("background-color: rgb(64, 171, 255);\n"
+"font: 22pt \"华文中宋\";\n"
 "color: rgb(255, 255, 255);")
         self.pushButton_2.setFlat(True)
         self.pushButton_2.setObjectName("pushButton_2")
         self.pushButton_3 = QtWidgets.QPushButton(self.widget)
         self.pushButton_3.setGeometry(QtCore.QRect(-10, 330, 151, 101))
-        self.pushButton_3.setStyleSheet("font: 20pt \"华光大黑_CNKI\";\n"
-"background-color: rgb(64, 171, 255);\n"
+        font = QtGui.QFont()
+        font.setFamily("华文中宋")
+        font.setPointSize(22)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.pushButton_3.setFont(font)
+        self.pushButton_3.setStyleSheet("background-color: rgb(64, 171, 255);\n"
+"font: 22pt \"华文中宋\";\n"
 "color: rgb(255, 255, 255);")
         self.pushButton_3.setFlat(True)
         self.pushButton_3.setObjectName("pushButton_3")
-        self.graphicsView = QtWidgets.QGraphicsView(self.widget)
-        self.graphicsView.setGeometry(QtCore.QRect(0, 0, 141, 130))
-        self.graphicsView.setObjectName("graphicsView")
         self.gridLayout_3.addWidget(self.widget, 0, 0, 1, 1)
         self.widget_2 = QtWidgets.QWidget(self.centralwidget)
         self.widget_2.setObjectName("widget_2")
@@ -83,7 +101,7 @@ class Ui_TopWindow(object):
 
     def retranslateUi(self, TopWindow):
         _translate = QtCore.QCoreApplication.translate
-        TopWindow.setWindowTitle(_translate("TopWindow", "MainWindow"))
+        TopWindow.setWindowTitle(_translate("TopWindow", "EasyTool"))
         self.pushButton.setText(_translate("TopWindow", "串口"))
         self.pushButton_2.setText(_translate("TopWindow", "TCPUDP"))
         self.pushButton_3.setText(_translate("TopWindow", "USB"))
