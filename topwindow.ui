@@ -40,13 +40,13 @@
       </property>
       <property name="minimumSize">
        <size>
-        <width>135</width>
+        <width>100</width>
         <height>0</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>135</width>
+        <width>100</width>
         <height>16777215</height>
        </size>
       </property>
@@ -57,14 +57,14 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(118, 38, 140);</string>
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0.0227273 rgba(255, 255, 255, 255), stop:1 rgba(59, 59, 59, 162));</string>
       </property>
-      <widget class="QPushButton" name="pushButton">
+      <widget class="QPushButton" name="SerialpushButton">
        <property name="geometry">
         <rect>
          <x>-10</x>
          <y>130</y>
-         <width>151</width>
+         <width>121</width>
          <height>101</height>
         </rect>
        </property>
@@ -78,23 +78,23 @@
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(64, 171, 255);
-font: 22pt &quot;华文中宋&quot;;
-color: rgb(255, 255, 255);</string>
+        <string notr="true">font: 22pt &quot;华文中宋&quot;;
+color: rgb(0, 0, 0);
+</string>
        </property>
        <property name="text">
         <string>串口</string>
        </property>
        <property name="flat">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="TCPpushButton">
        <property name="geometry">
         <rect>
          <x>-10</x>
          <y>230</y>
-         <width>151</width>
+         <width>121</width>
          <height>101</height>
         </rect>
        </property>
@@ -108,23 +108,23 @@ color: rgb(255, 255, 255);</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(64, 171, 255);
-font: 22pt &quot;华文中宋&quot;;
-color: rgb(255, 255, 255);</string>
+        <string notr="true">font: 22pt &quot;华文中宋&quot;;
+color: rgb(0, 0, 0);
+</string>
        </property>
        <property name="text">
-        <string>TCPUDP</string>
+        <string>TCP</string>
        </property>
        <property name="flat">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_3">
+      <widget class="QPushButton" name="USBpushButton">
        <property name="geometry">
         <rect>
          <x>-10</x>
          <y>330</y>
-         <width>151</width>
+         <width>121</width>
          <height>101</height>
         </rect>
        </property>
@@ -138,17 +138,20 @@ color: rgb(255, 255, 255);</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(64, 171, 255);
-font: 22pt &quot;华文中宋&quot;;
-color: rgb(255, 255, 255);</string>
+        <string notr="true">font: 22pt &quot;华文中宋&quot;;
+color: rgb(0, 0, 0);
+</string>
        </property>
        <property name="text">
         <string>USB</string>
        </property>
        <property name="flat">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
       </widget>
+      <zorder>TCPpushButton</zorder>
+      <zorder>SerialpushButton</zorder>
+      <zorder>USBpushButton</zorder>
      </widget>
     </item>
     <item row="0" column="1">

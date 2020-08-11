@@ -570,11 +570,23 @@ color: rgb(0, 0, 0);</string>
                 </rect>
                </property>
                <property name="styleSheet">
-                <string notr="true">font: 11pt &quot;宋体&quot;;
-color: rgb(255, 255, 255);</string>
+                <string notr="true">font: 15pt &quot;黑体&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(55, 54, 52);</string>
                </property>
                <property name="text">
                 <string>打开串口</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>off_1.png</normaloff>
+                 <normalon>on_1.png</normalon>off_1.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>32</width>
+                 <height>32</height>
+                </size>
                </property>
               </widget>
               <widget class="QLabel" name="label_3">
@@ -874,33 +886,6 @@ color: rgb(255, 255, 255);</string>
                    <bool>false</bool>
                   </property>
                  </widget>
-                 <widget class="QTextBrowser" name="comFiletextBrowser">
-                  <property name="geometry">
-                   <rect>
-                    <x>80</x>
-                    <y>10</y>
-                    <width>191</width>
-                    <height>30</height>
-                   </rect>
-                  </property>
-                  <property name="sizePolicy">
-                   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-                    <horstretch>0</horstretch>
-                    <verstretch>0</verstretch>
-                   </sizepolicy>
-                  </property>
-                  <property name="maximumSize">
-                   <size>
-                    <width>300</width>
-                    <height>30</height>
-                   </size>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">font: 10pt &quot;Times New Roman&quot;;
-background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);</string>
-                  </property>
-                 </widget>
                  <widget class="QPushButton" name="comOpenFilepushButton">
                   <property name="geometry">
                    <rect>
@@ -932,7 +917,7 @@ padding: 8;</string>
                  <widget class="QPushButton" name="comSendFilepushButton">
                   <property name="geometry">
                    <rect>
-                    <x>280</x>
+                    <x>470</x>
                     <y>10</y>
                     <width>66</width>
                     <height>30</height>
@@ -960,7 +945,7 @@ padding: 8;</string>
                  <widget class="QPushButton" name="comFileSendStoppushButton">
                   <property name="geometry">
                    <rect>
-                    <x>350</x>
+                    <x>540</x>
                     <y>10</y>
                     <width>42</width>
                     <height>30</height>
@@ -1210,6 +1195,19 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                   </property>
                  </widget>
+                 <widget class="QLineEdit" name="comSendFilePathlineEdit">
+                  <property name="geometry">
+                   <rect>
+                    <x>80</x>
+                    <y>9</y>
+                    <width>381</width>
+                    <height>31</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                 </widget>
                 </widget>
                </item>
                <item>
@@ -1221,7 +1219,8 @@ p, li { white-space: pre-wrap; }
                   </sizepolicy>
                  </property>
                  <property name="styleSheet">
-                  <string notr="true">background-color: rgb(35, 35, 35);</string>
+                  <string notr="true">background-color: rgb(35, 35, 35);
+color: rgb(255, 255, 255);</string>
                  </property>
                  <property name="frameShape">
                   <enum>QFrame::Panel</enum>
